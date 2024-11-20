@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turma da Monica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botão">
+            <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+    </label>
+    <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Todos os livros</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Turma da Monica</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Cebolinha</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Cascão</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Magali</a></li>
+    </ul>
+        <img src="img/vetores-turma-da-monica-cdr-eps-ai-e-png-100-vetores-cdr-lembrancinha.webp" alt="logo da Turma da Monica" class="container__imagem"> 
+        <h1 class="container__titulo"><b class="container__titulo--negrito">Turmada</b>Monica</h1>
+    </div>
+
+    <ul class="opções">
+      <input type="checkbox" id="opções-menu" class="opções__botao">
+      <label for="opções-menu" class="opções__rotulo">
+        <li class="opções__item">Categorias</li>
+      </label>
+
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Todos os livros</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Turma da Monica</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Cebolinha</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Cascão</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Magali</a></li>
+    </ul>
+      
+      <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+      <li class="opções__item"><a href="#" class="opções__link">Minha Estante</a></li>
+    </ul>
+
+    <div class="container">
+        <a href="#"><img src="img/Favoritos.svg" alt="meus favoritos" class="container__imagem container__imagem-transparente"></a>
+        <a href="#" class="container__link">
+          <img src="img/Compras.svg" alt="carrinho de compras" class="container__imagem">
+          <p class="container__texto">minha sacola</p>
+        </a>
+        <a href="#"class= "container__link">
+          <img src="img/Usuario.svg" alt="meu usuário" class="container__imagem">
+          <p class="container__texto">meu perfil</p>
+        </a>
+    </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Ja sabe por onde começar?</h2>
+        <p class="banner__texto">Aqui tem tudo sobre as aventuras da Turma da Monica!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima aventura?"> 
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Recomendações</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+         <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/R (1).jfif" alt="Turma da Monica: Os quatro amigos ilhados"></div>
+      <div class="swiper-slide"><img src="img/WhatsApp Image 2024-10-24 at 14.58.45.jpeg" alt="Cebolinha: O plano natalino"></div>
+      <div class="swiper-slide"><img src="img/2710659c2ce1b17ed72e23428ef3b551.png" alt="Cascão: As visitas que vieram de longe"></div>
+      <div class="swiper-slide"><img src="img/OIP (4).jfif" alt="Magali: Quem foi que fez pipi aqui?"></div>
+      ...
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <div class="card">
+    <!-- 1°linha -->
+    <div class="card__descrição">
+        <!-- 1°coluna -->
+    <div class="descrição">
+        <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+        <h2 class="descrição__titulo-livro">Chico Bento</h2>
+        <p class="descrição__texto">Conheça as aventuras de Chico Bento na roça!</p>
+    </div>
+    <!-- 2°coluna -->
+    <img src="img/OIP (5).jfif" class="descrição__imagem">
+    </div>
+
+    <!-- 2°linha -->
+     <div class="card__botões">
+        <!-- 1°coluna -->
+        <ul class="botões">
+            <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+            <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2°coluna -->
+         <a href="#" class="botões__ancora">Saiba mais</a>
+     </div>
+  </div>
+    </section>
+
+    <section class=”carrosel”>
+        <h2 class="carrosel__titulo">Descubra</h2>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+    
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/OIP (6).jfif"
+                alt="A história da Turma da Monica"></div>
+            <div class="swiper-slide"><img src="img/R (2).jfif" alt="Turma da Monica: Tem lugar pra todo mundo nessa turma">
+            </div>
+            <div class="swiper-slide"><img src="img/OIP (7).jfif" alt="Neymar: A bola e o coelho">
+            </div>
+            <div class="swiper-slide"><img src="img/R (3).jfif" alt="Turma da Monica: Copa do Mundo 2006"></div>
+            <div class="swiper-slide"><img src="img/c04a68d363e6401d0e26feaa29357161.jpg" alt="Turma da Monica nas Olímpiadas"></div>
+            <div class="swiper-slide"><img src="img/turma-da-monica-eca.webp" alt="Turma da Monica: O Estatuto da Criança e do Adolescente"></div>
+          </div>
+    
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+    
+        <div class="card">
+          <!-- 1º linha -->
+          <div class="card__descrição">
+            <!-- 1º coluna -->
+            <div class="descrição">
+              <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+              <h3 class="descrição__titulo">Em homenagem ao autor...</h3>
+              <h2 class="descrição__titulo-livro">Mauricio de Souza</h2>
+              <p class="descrição__texto">Mauricio de Sousa é um autor de histórias em quadrinhos cujas obras apresentam uma diversidade de personagens. A revista Turma da Mônica é o grande sucesso desse escritor.
+              </p>
+            </div>
+            <!-- 2º coluna -->
+            <img src="img/Mauricio_de_Sousa_4_cr_dito_divulga_o.jpg" class="descrição__imagem">
+          </div>
+    
+          <!-- 2º linha -->
+          <div class="card__botões">
+            <!-- 1º coluna -->
+            <ul class="botões">
+              <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+              <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+            </ul>
+            <!-- 2º coluna -->
+            <a href="#" class="botões__ancora">Saiba mais</a>
+          </div>
+        </div>
+    
+    
+    
+      </section>
+
+      <section class="tópicos">
+        <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos__lista">
+          <li class="tópicos__item"><a href="#" class="tópicos__link">Turma da Monica</a></li>
+          <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Cebolinha</a>
+          </li>
+          <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Cascão</a>
+          </li>
+          <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Magali</a>
+          </li>
+          <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Chico Bento</a>
+          </li>
+          <li class="tópicos__item">
+            <a href="#" class="tópicos__link">Edições especiais</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contato">
+        <div class="contato__descrição">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações frequentes das aventuras da Turma da Monica.</p>
+      </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+      </section>
+
+      <hr />
+
+<footer class="rodapé">
+  <h2 class="rodapé__titulo">Turma da Monica</h2>
+  <ul class="lista-rodapé">
+    <li class="lista-rodapé__titulo">educação</li>
+    <li class="lista-rodapé__item">
+      <img src="img/CasaDoCodigo.svg" alt="logo da casa do código">
+      <a href="#" class="lista-rodapé__link">casa do código</a>
+    </li>
+    <li class="lista-rodapé__item">
+      <img src="img/Caelum.svg" alt="logo da caelum">
+      <a href="#" class="lista-rodapé__link">caelum</a>
+    </li>
+  </ul>
+  <ul class="lista-rodapé">
+  <li class="lista-rodapé__titulo">educação online</li>
+  <li class="lista-rodapé__item">
+    <img src="img/Alura.svg" alt="logo da casa da alura">
+    <a href="#" class="lista-rodapé__link">alura</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/AluraLATAM.svg" alt="logo da aluralatam">
+    <a href="#" class="lista-rodapé__link">alura latam</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/AluraStart.svg" alt="logo da alura start">
+    <a href="#" class="lista-rodapé__link">AluraStart</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/AluraEmpresas.svg" alt="logo da alura empresas">
+    <a href="#" class="lista-rodapé__link">alura para empresas</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/MusicDot.svg" alt="logo da MusicDot">
+    <a href="#" class="lista-rodapé__link">MusicDot</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/AluraLingua.svg" alt="logo da alura língua">
+    <a href="#" class="lista-rodapé__link">alura lingua</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/PM3.svg" alt="logo da PM3">
+    <a href="#" class="lista-rodapé__link">PM3</a>
+  </li>
+</ul>
+
+<ul class="lista-rodapé">
+  <li class="lista-rodapé__titulo">comunidade</li>
+  <li class="lista-rodapé__item">
+    <img src="img/HipstersTech.svg" alt="logo da HipstersTech">
+    <a href="#" class="lista-rodapé__link">hipsters ponto tech</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/ScubaDev.svg" alt="logo da ScubaDev">
+    <a href="#" class="lista-rodapé__link">Scuba Dev</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/LayersTech.svg" alt="logo da LayersTech">
+    <a href="#" class="lista-rodapé__link">layers ponto tech</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/LikeABoss.svg" alt="logo da LikeABoss">
+    <a href="#" class="lista-rodapé__link">like a boss</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/HipstersJobs.svg" alt="logo da HipstersJobs">
+    <a href="#" class="lista-rodapé__link">hipsters ponto jobs</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/HipstersTech.svg" alt="logo da HipstersTech">
+    <a href="#" class="lista-rodapé__link">hipsters ponto tech</a>
+  </li>
+  <li class="lista-rodapé__item">
+    <img src="img/GUJ.svg" alt="logo da GUJ">
+    <a href="#" class="lista-rodapé__link">GUJ</a>
+  </li>
+</ul>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".swiper", {
+    spaceBetween: 10,
+    slidesPerView: 3,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+    },
+  });
+    </script>
+    
+</body>
+</html>
